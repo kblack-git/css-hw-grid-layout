@@ -1,0 +1,30 @@
+/* .grid-area {
+    display: grid;
+    grid-template-columns: 80% 5% 5% 5% 5%;
+} */
+
+
+.grid-area {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 60px 500px 60px;
+    max-width: 800px;
+}
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    
+}
+
+.header {
+    background-color: lightgray;
+}
+footer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+

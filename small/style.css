@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5,50px);
+    grid-template-rows: repeat(5,50px);
+}
+.grid-item {
+    display: grid;
+    color: brown;
+    border: 3px solid black;
+}
+.even {
+    background-color: crimson;
+}
+.odd {
+    background-color: yellow;
+}
